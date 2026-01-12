@@ -23,7 +23,19 @@
         "./*"
       ]
     },
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
     "allowImportingTsExtensions": true,
     "noEmit": true
   }
+  ,
+  "include": [
+    "src",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.d.ts"
+  ]
 }

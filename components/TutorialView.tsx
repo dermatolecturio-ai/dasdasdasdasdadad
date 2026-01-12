@@ -449,7 +449,7 @@ const TutorialView: React.FC<TutorialViewProps> = ({ unitId, onClose }) => {
                             <input type="range" min="120" max="400" step="10" value={prInterval} onChange={e => setPrInterval(Number(e.target.value))} className="w-full h-2 bg-gray-700 rounded-lg accent-[#ff9600] cursor-pointer" />
                             <div className="p-3 bg-orange-500/10 border border-orange-500/30 rounded mt-3">
                                 <p className="text-[10px] text-orange-200 leading-tight">
-                                    <strong>Fisiologia:</strong> Determina quanto tempo o Nó AV "segura" o impulso antes de liberar para os ventrículos. >200ms indica Bloqueio de 1º Grau.
+                                    <strong>Fisiologia:</strong> Determina quanto tempo o Nó AV "segura" o impulso antes de liberar para os ventrículos. &gt;200ms indica Bloqueio de 1º Grau.
                                 </p>
                             </div>
                         </div>
