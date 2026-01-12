@@ -1,0 +1,7 @@
+{
+  "name": "MEDCORTEX ONE - BATALHA DO ECG",
+  "description": "Uma plataforma de aprendizado gamificada para dominar o ECG com progressão baseada em níveis e batalhas de conhecimento.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
